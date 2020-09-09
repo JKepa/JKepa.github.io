@@ -1,25 +1,201 @@
+<!doctype html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
- 
-   <style> a {
-   font-family: Courier, monospace; 
-   }
-   a {
-   color: #000000; font-size: 50px;
-   }
-   a { 
-   text-decoration: none; 
-   }
-   
-  </style>   
+<head>
+    <meta charset="UTF-8">
+    <title>Jowita Kepa</title>
+    <!--
+/**
+ * @license
+ * MyFonts Webfont Build ID 3054430, 2015-07-07T06:09:23-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: HelveticaNeueLTPro-Bd by Linotype
+ * URL:
+ * http://www.myfonts.com/fonts/linotype/helvetica-neue-pro/helvetica-neue-pro-bold/
+ * Copyright: Part of the digitally encoded machine readable outline data for producing
+ * the Typefaces provided is copyrighted &#x00A9; 1981 - 2008 Linotype GmbH,
+ * www.linotype.com. All rights reserved. This software is the property of Linotype
+ * GmbH, and may not be repro
+ * Licensed pageviews: 500,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3054430
+ * 
+ * © 2015 MyFonts Inc
+*/
 
-  </head>
- <body> 
-  <a href="mailto:jowitakepa@gmail.com">
-   ||||||||||||||||||||||||||||||||||<br> 
-   |||||||jowitakepa@gmail.com|||||||<br>
-   ||||||||||||||||||||||||||||||||||</a>
-   
-  </body>
+-->
+
+<link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit/MyFontsWebfontsKit.css">
+
+<style type="text/css">
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+
+@viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+
+.HelveticaNeueLTPro-Bd { 
+	font-family: HelveticaNeueLTPro-Bd;
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+        html {overflow-y:hidden; background-color:#000000; height:100%; font-family:HelveticaNeueLTPro-Bd; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border:0px; margin:0px; color:#FFFFFF;}
+
+        body { border:0; margin:0; }
+
+        a.linkText { color: #FFFFFF; text-decoration: none; }
+        a.linkText:visited {  color: #FFFFFF; text-decoration: line-through; }
+        a.linkText:hover {  color: #FFFFFF;  text-decoration:underline;  }
+        a.linkText:focus {  color: #FFFFFF;   }
+
+        #title {
+            font-family:futura;
+            text-align:center;
+            position:fixed;
+            top:21px;
+            width:500px;
+            left:50%;
+            margin-left:-250px;
+            z-index:1;
+        }
+
+
+        #about_us {
+            font-family:futura;
+            text-align:left;
+            position:fixed;
+            bottom:25px;
+            width:500px;
+            left:40px;
+            z-index:1500;
+        }
+
+        #buy {
+            font-family: futura;
+            text-align: left;
+            position: fixed;
+            top: 20px;
+            width: 411px;
+            left: 40px;
+            z-index: 1500;
+        }
+
+
+        #instagram {
+            font-family: futura;
+            text-align: right;
+            position: fixed;
+            top: 25px;
+            width: 453px;
+            right: 40px;
+            z-index: 1500;
+        }
+
+
+        #contact {
+            font-family:courier;
+            text-align:center;
+            position:absolute;
+            bottom:25px;
+            width:500px;
+            left:50%;
+            margin-left:-250px;
+        }
+
+        #footer {
+            font-family:futura;
+            text-align:center;
+            position:absolute;
+            bottom:25px;
+            width:500px;
+            left:50%;
+            margin-left:-250px;
+
+            display:none;
+        }
+        .slides-container img {
+            width:100%;
+        }
+
+        .all {
+            margin: 0 auto;
+            position:absolute;
+            text-align:center;
+            width:100%;
+            height:100%;
+            display: table;
+        }
+        .all > .wrapper {
+            display:table-cell;
+            vertical-align:middle;
+        }
+        .wrapper > .center {
+            margin:0 auto;
+        }
+
+    </style>
+
+    <link href="../css/superslides.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+
+
+
+<span id="contact">coming soon</span>
+
+
+
+
+<div class="all">
+    <div class="wrapper">
+        <div id="container" class="center">
+<div id="slides">
+            <div class="slides-container">
+                  <img src="../TheNerveMeterPoster.jpg" alt="" width="469" height="700" width_o="469" height_o="700">
+                     </div>
+ </div>
+ </div>
+ </div>
+ </div>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/jquery.easing.1.3.js"></script>
+<script src="../js/jquery.animate-enhanced.min.js"></script>
+<script src="../js/jquery.superslides.min.js"></script>
+<script type="text/javascript">
+
+    function setSize() {
+        $('#container').width($(window).width() * 0.70);
+        $('#container').height($('#container').width()*0.65);
+    }
+
+    $(function() {
+        setSize();
+        $('#slides').superslides({
+            animation: 'fade',
+            play:1000,
+            inherit_width_from:'#container',
+            inherit_height_from: '#container'
+        });
+
+        $(window).resize(function() {
+            setSize();
+        });
+    });
+</script>
+</body>
 </html>
