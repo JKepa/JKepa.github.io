@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: http://jowitakepa.com/sitemap.xml
+Sitemap: https://jkepa.github.io/sitemap.xml
