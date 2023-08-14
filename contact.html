@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Jowita Kepa is an image/sound maker working with elision, found source, humor, failure, tragedy, impossibility, permutation/chance, poem and video.">
+  <meta name="keywords" content="Jowita Kepa, Artist, film, video, art">
+  <meta name="author" content="Jowita Kepa">
+  <meta name="viewport" content="width=device-width, initial-scale=0.42">
+  
+  
+  <title>JOWITA KEPA</title>
+  
+ <link rel="alternate" href="http://www.jowitakepa.com">
+ <link rel="canonical" href="http://jowitakepa.com" />
+  
+
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+padding: 0px;
+margin: 0px;
+height: 100vh;
+}
+h1 {
+font-family: sans-serif;
+font-size: 4em;
+background-color: white;
+margin: 0px;
+}
+a {
+color: black;
+text-decoration: none;
+}
+.block {
+width: 100%;
+height: none;
+background-color: white;
+padding: 10px;
+margin: 0px;
+float: left;
+}
+.block2 {
+width: 80%;
+height: none;
+background-color: white;
+padding: 40px;
+margin: 0px;
+float: left;
+}    
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+[class*="block"] {
+    width: 100%;
+  }
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .block:hover, .block2:hover  {
+  
+  color: blue;
+}
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("block", "block2");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+  </style>
+
+</head>
+
+<body>
+
+<!--<div style="width: 1040px;">-->
+
+<a href="mailto:jowitakepa@gmail.com">
+<div class="block2" style="background: white; background-size: cover;" data-nosnippet="true">
+<h1>
+<span data-nosnippet>jowitakepa[at]gmail[dot]com
+</span></h1>
+</div>
+</a>
+
+<!--</div>-->
+
+</body>
+</html>
